@@ -965,18 +965,9 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   opacity: 1;
   transform: translateY(0);
 }
-
 @media (max-width: 768px) {
-  .brand {
-    gap: 6px;
-  }
-
   .brand-logo {
-    height: 40px;
-  }
-
-  .brand-text {
-    line-height: 1;
+    height: 35px;
   }
 
   .brand-name {
@@ -984,6 +975,6 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   }
 
   .brand-tagline {
-    font-size: 10px;
+    display: none; /* hide only tagline */
   }
 }
