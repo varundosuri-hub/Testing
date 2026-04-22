@@ -965,3 +965,25 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  .brand {
+    gap: 6px;
+  }
+
+  .brand-logo {
+    height: 40px;
+  }
+
+  .brand-text {
+    line-height: 1;
+  }
+
+  .brand-name {
+    font-size: 14px;
+  }
+
+  .brand-tagline {
+    font-size: 10px;
+  }
+}
